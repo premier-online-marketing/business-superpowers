@@ -1,0 +1,24 @@
+{
+  "name": "business-superpowers",
+  "description": "Workflow orchestration for strategy, operations, and planning. Superpowers, but for the business side.",
+  "plugins": [
+    {
+      "id": "business-superpowers",
+      "name": "Business Superpowers",
+      "version": "0.1.0",
+      "description": "A disciplined pipeline (discover → analyze → plan → execute → validate → review → finalize) for any business workflow, with composable skills, subagent dispatch, and progressive org-context discovery.",
+      "path": ".",
+      "tags": [
+        "strategy",
+        "operations",
+        "planning",
+        "workflow"
+      ],
+      "compatibility": {
+        "claude-code": ">=1.0.0",
+        "claude-desktop": ">=1.0.0",
+        "cowork": ">=1.0.0"
+      }
+    }
+  ]
+}

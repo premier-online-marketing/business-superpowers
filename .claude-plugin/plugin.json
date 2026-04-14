@@ -1,0 +1,33 @@
+{
+  "name": "business-superpowers",
+  "displayName": "Business Superpowers",
+  "version": "0.1.0",
+  "description": "A workflow orchestration plugin for Claude that brings disciplined pipeline execution (discover → analyze → plan → execute → validate → review → finalize) to strategy, operations, and planning work. Org-agnostic by design — learns your company context progressively from memory, a BUSINESS_CONTEXT.md file, or direct questions, and never assumes a specific planning methodology.",
+  "author": "andreslfdez",
+  "license": "MIT",
+  "homepage": "https://github.com/premier-online-marketing/business-superpowers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/premier-online-marketing/business-superpowers.git"
+  },
+  "keywords": [
+    "strategy",
+    "operations",
+    "planning",
+    "workflow",
+    "subagents",
+    "business",
+    "superpowers"
+  ],
+  "skills": [
+    "skills/load-org-context",
+    "skills/strategic-discovery",
+    "skills/situation-analysis",
+    "skills/action-planning",
+    "skills/subagent-driven-execution",
+    "skills/metric-driven-validation",
+    "skills/stakeholder-review",
+    "skills/deliverable-finalization",
+    "skills/root-cause-analysis"
+  ]
+}
