@@ -6,6 +6,20 @@ Org-agnostic by design. Methodology-agnostic by default. Progressive org-context
 
 ---
 
+## How to use this
+
+**There is no `/business-superpowers` command. You don't type slash commands at all.**
+
+Just describe your situation in plain English. The right skill fires automatically based on what you say.
+
+- *"Help me think through Q3 priorities."* → fires `strategic-discovery`
+- *"Why did acquisition drop 30%?"* → fires `root-cause-analysis`
+- *"Turn this into a plan with owners."* → fires `action-planning`
+
+Full trigger-phrase map in [CLAUDE.md](CLAUDE.md). The pipeline starts with `strategic-discovery` — any open-ended strategic question gets you in.
+
+---
+
 ## Why this exists
 
 Most business-oriented Claude skill packs are one of two shapes:
@@ -76,7 +90,7 @@ git clone https://github.com/premier-online-marketing/business-superpowers.git ~
    ```
    Fill in the required fields at minimum (company, one-liner, stage, revenue model). The recommended and optional fields fill in over time as skills ask for them.
 
-2. **Ask Claude a strategic question in natural language.** Examples:
+2. **Ask Claude a strategic question in natural language — no slash command needed.** Examples:
    - "Help me think through Q3 priorities for the sales team."
    - "Why did new-customer acquisition drop 30% this quarter?"
    - "Let's pre-mortem the pricing change we're considering."
